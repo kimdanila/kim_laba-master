@@ -1,0 +1,233 @@
+body {
+  margin: 50px;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.hui {
+  list-style: none;
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.penis {
+  list-style-type: none;
+  box-sizing: border-box;
+  padding: 12px;
+  display: flex;
+  margin: 100px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  border: 1px solid #222;
+  background-color: #ffffff3d;
+}
+
+.completed {
+  border-radius: 40px;
+  margin: 5px;
+  background-color: rgb(0, 255, 0);
+}
+
+.filtr {
+  margin-bottom: 30px;
+}
+
+.zagolovok {
+  text-align: center;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 300px;
+  height: 30px;
+  margin-left: 50px;
+  border: 1px solid #222;
+}
+
+.zagolovok2 {
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 300;
+  width: 300px;
+  height: 30px;
+  border: 1px solid #222;
+  margin-left: 20px;
+  margin-top: 25px;
+  transition: 1500ms ease;
+}
+
+.zagolovok2:hover {
+  height: 300px;
+  transition: 1500ms ease;
+}
+
+.penis2 {
+  margin: 50px;
+}
+
+.dodod {
+  float: right;
+  height: 70px;
+  width: 240px;
+  margin-top: -150px;
+  border-radius: 5px;
+  border: 2px solid #222;
+  background-color: aliceblue;
+  transition: 500ms ease;
+}
+
+.dodod:hover {
+  transform: scale(1.3);
+  transition: 500ms ease;
+  background-color: #00ffc3;
+}
+
+.butt {
+  margin: 15px;
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #222;
+  background-color: #ff5757;
+  transition: 500ms ease;
+}
+
+.butt:hover {
+  transform: scale(1.1);
+  transition: 500ms ease;
+  background-color: red;
+}
+
+.butt2 {
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #222;
+  background-color: #fff;
+  margin: 5px;
+}
+
+.butt3 {
+  height: 40px;
+  border: 1px solid #222;
+  background-color: #fff;
+
+  border-radius: 10px;
+}
+
+.zalupa {
+  font-size: 15px;
+}
+
+.filtra {
+  margin: 5px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #222;
+}
+
+.chart-container {
+  display: inline-flex;
+
+  height: 1px;
+  font-size: 15px;
+}
+
+.chart1 {
+  text-align: center;
+  margin: 30px;
+  margin-left: -100px;
+  width: 150px;
+  padding-bottom: 120px;
+}
+.chart2 {
+  margin: 30px;
+  width: 150px;
+}
+/* Styles for devices with a width of 600px or less */
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 20px;
+  }
+
+  .hui {
+    font-size: 20px;
+  }
+
+  .penis {
+    margin: 50px 0;
+    padding: 10px;
+    flex-direction: column;
+  }
+
+  .completed {
+    margin: 5px 0;
+  }
+
+  .zagolovok {
+    width: 100%;
+    margin: 0 0 10px;
+  }
+
+  .zagolovok2 {
+    width: 100%;
+    height: 30px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .dodod {
+    float: none;
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .butt {
+    margin: 10px 0;
+    width: 100%;
+  }
+
+  .zalupa {
+    font-size: 13px;
+  }
+
+  .filtra {
+    margin: 5px 0;
+  }
+}
+
+.lol {
+  font-size: 10px;
+  margin-top: -40px;
+}
+.chart-container {
+  display: inline-flex;
+
+  height: 1px;
+  font-size: 15px;
+}
+
+.chart1 {
+  text-align: center;
+  margin: 30px;
+  margin-left: 10px;
+  width: 150px;
+  padding-bottom: 120px;
+}
+.chart2 {
+  margin: 30px;
+  width: 150px;
+}
+
+.note-content {
+  font-size: 20px;
+}
